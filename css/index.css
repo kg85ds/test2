@@ -1,0 +1,83 @@
+/* main.css */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 */
+    background-color: #f9f9f9; /* 연한 회색 배경 */
+    color: #333; /* 기본 텍스트 색상 */
+}
+
+.navbar {
+    background-color: #fff; /* 네비게이션 바 배경색상 */
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333; /* 네비게이션 바 텍스트 색상 */
+}
+
+.navbar-toggler-icon {
+    background-color: #333; /* 햄버거 아이콘 색상 */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #333; /* 네비게이션 링크 텍스트 색상 */
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section h1,
+.section h2,
+.section h3 {
+    font-family: 'Dancing Script', cursive; /* 웨딩 느낌 나는 손글씨 폰트 */
+    color: #333; /* 섹션 헤딩 색상 */
+}
+
+.section p {
+    font-size: 1.1rem;
+}
+
+#section1 {
+    background-color: #ffd6e5; /* 연한 분홍색 */
+}
+
+#section2 {
+    background-color: #ffd8b1; /* 연한 주황색 */
+}
+
+#section3 {
+    background-color: #b0e57c; /* 연한 녹색 */
+}
+
+.img-fluid {
+    padding: 1rem;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin-top: 50px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    background-color: #333; /* 푸터 배경색상 */
+    color: #fff; /* 푸터 텍스트 색상 */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
